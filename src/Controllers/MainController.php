@@ -10,7 +10,10 @@ class MainController
     }
 
     public function page404(): void
+
+
     {
+        header('HTTP:1.1 404 Not Found');
         require VIEWS_DIR . '/404.php';
     }
 }

@@ -3,16 +3,17 @@
 
 
 require __DIR__ . '/../vendor/autoload.php';
-dump(55);
+
 
 require __DIR__ . '/../configs/functions.php';
-dump(request_path() );
+
 
 require  __DIR__ . '/../configs/params.php';
 
+
 try{
 
-
+    require  __DIR__ . '/../configs/routes.php';
 
 } catch(Throwable $e){
 
